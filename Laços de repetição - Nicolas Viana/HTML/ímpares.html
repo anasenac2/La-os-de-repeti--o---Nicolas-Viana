@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="impar()">
+        Clique aqui para ver os ímpares
+    </button>
+    <div id="resposta"></div>
+    <script>
+        
+        function impar(){
+            var texto = document.getElementById("resposta");
+            var html='';
+            for(var i = 151; i < 300; i += 2 ){
+                html += i + ", ";
+            }
+            resposta.textContent = "Aqui estão: " + html;
+        }
+    </script>
+</body>
+</html>

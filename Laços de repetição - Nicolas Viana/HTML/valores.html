@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+function valores() {
+    var resposta = document.getElementById("resposta");
+    var grande = -Infinity;
+    var menor = Infinity;
+
+    for (var i = 1; i <= 20; i++) {
+        var number = parseInt(prompt("Escreva um número aqui"));
+        if (number > grande) {
+            grande = number;
+        }
+        if (number < menor) {
+            menor = number;
+        }
+    }
+    resposta.textContent = ("O maior e o menor número são, respectivamente: " + grande + " e " + menor + ".");
+}
+
+    </script>
+    <title>Document</title>                     
+</head>
+
+<body>
+    <button onclick="valores()">Clique para digitar os valores</button>
+    <div id="resposta"></div>
+  
+</body>
+
+</html>

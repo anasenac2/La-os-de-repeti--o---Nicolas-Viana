@@ -1,0 +1,13 @@
+body{
+    background: linear-gradient(0.25turn, #24107c, #2a119b, #2f0cca);
+    display: flex;
+    justify-content: center;
+}
+.sexo{
+    display: flex;
+}
+button{
+    background-color: rgb(238, 198, 67);
+    border: 2px;
+    border-radius: 100%;
+}
